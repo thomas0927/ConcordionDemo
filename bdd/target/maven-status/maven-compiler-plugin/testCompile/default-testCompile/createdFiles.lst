@@ -1,0 +1,6 @@
+com\umpay\test\bdd\FirstExcelTutorial.class
+com\umpay\test\bdd\PartialMatchesFixture.class
+com\umpay\test\bdd\IndexFixture.class
+com\umpay\test\bdd\SplittingNamesFixture.class
+com\umpay\test\bdd\TimerFixture.class
+com\umpay\test\bdd\subSpec\Table.class
