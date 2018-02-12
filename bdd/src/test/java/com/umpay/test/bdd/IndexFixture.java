@@ -21,5 +21,5 @@ import org.junit.runner.RunWith;
  *************************************************************************/
 
 @RunWith(value = ConcordionRunner.class)
-public class IndexFixture {
+public class IndexFixture extends BaseFixture{
 }

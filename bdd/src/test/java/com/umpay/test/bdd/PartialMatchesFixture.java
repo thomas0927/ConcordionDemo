@@ -16,7 +16,7 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 
 import org.concordion.api.extension.Extensions;
-import org.concordion.ext.timing.TimerExtension;
+import org.concordion.ext.LoggingTooltipExtension;
 import org.concordion.integration.junit4.ConcordionRunner;
 import org.junit.runner.RunWith;
 
@@ -29,8 +29,8 @@ import org.junit.runner.RunWith;
 
 
 @RunWith(ConcordionRunner.class)
-@Extensions(TimerExtension.class)
-public class PartialMatchesFixture {
+@Extensions({LoggingTooltipExtension.class})
+public class PartialMatchesFixture extends BaseFixture{
 
 	private Set<String> usernamesInSystem = new HashSet<String>();
 
@@ -54,5 +54,17 @@ public class PartialMatchesFixture {
             }
         }
         return matches;
+    }
+    
+    public void setUpUsers(String usernames) {
+    	String[] usernameArr=usernames.split(",");
+    	for (String strname : usernameArr) {
+    		usernamesInSystem.add(strname);
+		}
+    }
+    
+    public String getSearchResultsForStr(String searchString) {
+    	Iterable<String> matches = getSearchResultsFor(searchString);
+        return matches.toString();
     }
 }

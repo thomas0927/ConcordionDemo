@@ -1,4 +1,4 @@
-# 模糊匹配
+# PartialMatches
 
 用户名查找时支持模糊匹配，即返回包含搜索字符串的所有用户名。
 
@@ -25,3 +25,5 @@
 
 [search]: - "c:verify-rows=#username:getSearchResultsFor(#searchString)"
 [match]: - "?=#username"
+
+
