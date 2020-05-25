@@ -63,8 +63,7 @@ public class PartialMatchesFixture extends BaseFixture{
 		}
     }
     
-    public String getSearchResultsForStr(String searchString) {
-    	Iterable<String> matches = getSearchResultsFor(searchString);
-        return matches.toString();
+    public Iterable<String>  getSearchResultsForStr(String searchString) {
+    	return getSearchResultsFor(searchString);
     }
 }

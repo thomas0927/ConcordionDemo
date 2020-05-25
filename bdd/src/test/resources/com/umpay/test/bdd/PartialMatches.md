@@ -39,7 +39,8 @@
 
 | [searchStr][] [匹配的用户][matchStr]|
 |------------------------------------------|
-| [george.harrison, ringo.starr] |
+| george.harrison |
+| ringo.starr |
 
-[searchStr]: - "c:verify-rows=#username:getSearchResultsForStr(#searchString)"
-[matchStr]: - "?=#username"
+[searchStr]: - "c:verify-rows=#usernameStr:getSearchResultsForStr(#searchString)"
+[matchStr]: - "?=#usernameStr"
