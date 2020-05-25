@@ -15,8 +15,10 @@
 输入 [12345]( - "#firstName") 名字验证结果为 [valid](- "c:assert-false=checkFirstName(#firstName)").
 
 输入 Empty String 名字验证结果为 [invalid](- "c:assert-false=checkFirstNameAsEmptyString()").
+输入 []( - "#firstName") 名字验证结果为 [invalid](- "c:assert-false=checkFirstName(#firstName)").
 
 输入 null 名字验证结果为 [invalid](- "c:assert-false=checkFirstNameAsNull()").
+输入 null 名字验证结果为 [invalid](- "c:assert-false=checkFirstName(#firstName)").
 
 输入 [Pr@sh@nt]( - "#firstName") 名字验证结果为 [invalid](- "c:assert-false=checkFirstName(#firstName)").
 
