@@ -6,14 +6,14 @@
 
 在下列用户中:
 
-| [setup][] [用户列表][user]|
+| [初始化一个][] [用户列表][user]|
 |------------------------------------------|
-| john.lennon |
-| ringo.starr |
-| george.harrison |
-| paul.mccartney |
+| john.lennon | 
+| ringo.starr | 
+| george.harrison | 
+| paul.mccartney | 
 
-[setup]: - "setUpUser(#username)"
+[初始化一个]: - "setUpUser(#username)"
 [user]:   - "#username"
 
 查找 [arr](- "#searchString") 得到的结果:
@@ -26,4 +26,20 @@
 [search]: - "c:verify-rows=#username:getSearchResultsFor(#searchString)"
 [match]: - "?=#username"
 
+### [增强用例](- "beatles2")
 
+| [初始化一组][] [用户列表集合][users]|
+|------------------------------------------|
+| john.lennon,ringo.starr,george.harrison,paul.mccartney |
+
+[初始化一组]: - "setUpUsers(#usernames)"
+[users]:   - "#usernames"
+
+查找 [arr](- "#searchString") 得到的结果:
+
+| [searchStr][] [匹配的用户][matchStr]|
+|------------------------------------------|
+| [george.harrison, ringo.starr] |
+
+[searchStr]: - "c:verify-rows=#username:getSearchResultsForStr(#searchString)"
+[matchStr]: - "?=#username"

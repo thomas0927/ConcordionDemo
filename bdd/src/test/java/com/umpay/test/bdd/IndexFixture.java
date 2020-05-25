@@ -3,7 +3,7 @@
  * <br>copyright   : Copyright (c) 2018
  * <br>description : TODO<何时使用>[注意][示例]
  * <br>modified    : 
- * @author      <a href="mailto:zhangming@umpay.com">Thomas Zhang</a>
+ * @author      <a href="mailto:thomas0927@163.com">Thomas Zhang</a>
  * @version     1.0
  * @date        2018年2月2日 下午3:08:50
  */ 
@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
 /*************************************************************************
  * description : TODO
- * @author      <a href="mailto:zhangming@umpay.com">Thomas Zhang</a>
+ * @author      <a href="mailto:thomas0927@163.com">Thomas Zhang</a>
  * @date        2018年2月2日 下午3:08:50
  * @version     1.0             
  *************************************************************************/

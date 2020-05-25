@@ -47,7 +47,7 @@ public class TimerFixture extends BaseFixture {
      * description : this is not a full validation, just a basic check.
      * @param dateString
      * @return
-     * @author      <a href="mailto:zhangming@umpay.com">Thomas Zhang</a>
+     * @author      <a href="mailto:thomas0927@163.com">Thomas Zhang</a>
      * @version     1.0
      * @date        2018年2月2日下午5:40:47
      */
@@ -59,7 +59,7 @@ public class TimerFixture extends BaseFixture {
      * description : Again, just a basic check
      * @param code
      * @return
-     * @author      <a href="mailto:zhangming@umpay.com">Thomas Zhang</a>
+     * @author      <a href="mailto:thomas0927@163.com">Thomas Zhang</a>
      * @version     1.0
      * @date        2018年2月2日下午5:09:39
      */

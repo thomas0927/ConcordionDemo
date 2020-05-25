@@ -2,7 +2,7 @@
 
 本规范使用银行客户表单的验证检查。 我们将增加更多的用例作为本项目其余部分的一个运行示例。
 
-### [验证名字](- "example 1")
+### [验证名字](- "验证名字 1")
 
 输入 [Andrew]( - "#firstName") 名字验证结果为 [valid](- "c:assert-true=checkFirstName(#firstName)").
 
@@ -21,7 +21,7 @@
 输入 [Pr@sh@nt]( - "#firstName") 名字验证结果为 [invalid](- "c:assert-false=checkFirstName(#firstName)").
 
 
-### [验证邮箱](- "example 2")
+### [验证邮箱](- "验证邮箱 2")
 
 输入 [foooooooooo]( - "#email") 验证结果为 [invalid](- "c:assert-false=checkEmail(#email)").
 
