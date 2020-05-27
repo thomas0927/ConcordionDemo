@@ -1,4 +1,4 @@
-package com.umpay.test.bdd.subSpec;
+package com.agile1001.test.bdd.subSpec;
 
 import org.concordion.api.extension.Extensions;
 import org.concordion.ext.timing.TimerExtension;

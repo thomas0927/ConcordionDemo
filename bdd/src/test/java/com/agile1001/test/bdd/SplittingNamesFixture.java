@@ -1,4 +1,4 @@
-package com.umpay.test.bdd;
+package com.agile1001.test.bdd;
 
 import org.concordion.api.MultiValueResult;
 import org.concordion.integration.junit4.ConcordionRunner;

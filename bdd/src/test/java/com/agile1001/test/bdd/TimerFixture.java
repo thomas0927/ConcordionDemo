@@ -1,4 +1,4 @@
-package com.umpay.test.bdd;
+package com.agile1001.test.bdd;
 
 import java.util.regex.Pattern;
 
