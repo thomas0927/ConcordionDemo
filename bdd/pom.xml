@@ -141,6 +141,6 @@
 		<guava.version>21.0</guava.version>
 		<concordion-logging-extension.version>1.1.2</concordion-logging-extension.version>
 		<junit.jupiter.version>5.5.2</junit.jupiter.version>
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
 	</properties>
 </project>
