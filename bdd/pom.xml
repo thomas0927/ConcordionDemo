@@ -137,7 +137,7 @@
 		<parallel-run-extension.version>1.1.0</parallel-run-extension.version>
 		<selenium.version>3.6.0</selenium.version>
 		<slf4j.version>1.7.25</slf4j.version>
-		<logback.version>1.1.7</logback.version>
+		<logback.version>1.2.0</logback.version>
 		<guava.version>21.0</guava.version>
 		<concordion-logging-extension.version>1.1.2</concordion-logging-extension.version>
 		<junit.jupiter.version>5.5.2</junit.jupiter.version>
